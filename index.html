@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rabby® Extension | The Game-Changing Wallet For All EVM Chains</title>
+    <meta name="description" content="Discover Rabby, the perfect tool to manage your digital assets securely. Enjoy user-friendly features, advanced security, and seamless integration for optimal convenience.">
+    <meta name="Rabby Extension" content="Rabby">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #735ed9, #a998ff);
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            text-align: center;
+            padding: 50px 20px;
+            animation: fadeIn 2s ease-in;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header img {
+            width: 120px;
+            animation: slideInLeft 1s ease-in-out;
+        }
+
+        .header nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+            animation: slideInRight 1s ease-in-out;
+        }
+
+        .main-content {
+            margin-top: 20px;
+        }
+
+        .main-content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .main-content p {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 150px;
+            height: 50px;
+            background-color: #ffffff;
+            color: #735ed9;
+            border-radius: 10px;
+            font-weight: bold;
+            text-decoration: none;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            animation: bounce 2s infinite;
+        }
+
+        .button img {
+            width: 20px;
+            margin-right: 10px;
+        }
+
+        .screenshot {
+            margin: 20px auto;
+            width: 80%;
+            max-width: 300px;
+            animation: zoomIn 1.5s ease-in-out;
+        }
+
+        .quote {
+            font-size: 1.5rem;
+            font-style: italic;
+            margin-top: 40px;
+            animation: fadeInUp 1.5s ease-in-out;
+        }
+
+        .quote span {
+            font-weight: bold;
+        }
+
+        .content {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            margin-top: 40px;
+            font-size: 1.1rem;
+            text-align: left;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .content h2 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: #ffffff;
+        }
+
+        .content p {
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideInLeft {
+            from {
+                transform: translateX(-100%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes slideInRight {
+            from {
+                transform: translateX(100%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-10px);
+            }
+            60% {
+                transform: translateY(-5px);
+            }
+        }
+
+        @keyframes zoomIn {
+            from {
+                transform: scale(0);
+            }
+            to {
+                transform: scale(1);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        } 
+
+        footer {
+            background: #676DF4;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 0.9em;
+        }
+
+        footer a {
+            color: #FFD700;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://www.rabby.io/assets/images/logo-white.svg" alt="Rabby Wallet Logo">
+            <nav>
+                <a href="#">Contact Us</a>
+                <a href="#">Support</a>
+                <a href="#">RabbyKit</a>
+                <a href="#">Integration Doc</a>
+            </nav>
+        </div>
+
+        <div class="main-content">
+            <h1>The Game-Changing Wallet for Beam</h1>
+            <p>Audited by SlowMist | Audited by Least Authority | Open Source</p>
+
+            <div class="buttons">
+                <a href="#" class="button">
+                    <img src="https://www.rabby.io/assets/images/chrome.svg" alt="Chrome">
+                    Chrome
+                </a>
+                <a href="#" class="button">
+                    <img src="https://www.rabby.io/assets/images/firefox-light.svg" alt="Firefox">
+                    Firefox
+                </a>
+            </div>
+        </div>
+
+        <img src="https://www.rabby.io/assets/images/hero-16.png" alt="Rabby extension" class="screenshot">
+
+        <div class="quote">
+            "<span>Rabby</span> is better in every single way."
+        </div>
+
+        <div class="content">
+            <h2><strong>Rabby Wallet: Simplify Your Web3 Experience</strong></h2>
+<p>Rabby Wallet is a next-generation cryptocurrency wallet designed to enhance your Web3 journey. With its focus on security, simplicity, and seamless integration, Rabby Wallet enables users to manage digital assets and interact with decentralized applications (dApps) effortlessly. Whether you are an experienced crypto enthusiast or a newcomer to the blockchain space, Rabby Wallet has the tools you need to succeed.</p>
+<h2><strong>What Is Rabby Wallet?</strong></h2>
+<p>Rabby Wallet is a browser extension-based wallet that stands out for its user-centric approach to Web3 transactions. It allows users to store, send, and receive cryptocurrencies while directly interacting with dApps across multiple blockchain networks. Its intuitive design and robust security make it a go-to solution for individuals venturing into decentralized finance (DeFi), NFTs, and other blockchain applications.</p>
+<h2><strong>Top Features of Rabby Wallet</strong></h2>
+<ol>
+<li>
+<p><strong>Multi-Chain Support</strong><br />Rabby Wallet is compatible with several blockchain networks, including Ethereum, Binance Smart Chain, and more. This multi-chain capability ensures you can manage diverse assets and connect to a wide range of dApps without hassle.</p>
+</li>
+<li>
+<p><strong>Transaction Preview for Security</strong><br />A standout feature of Rabby Wallet is its transaction preview. Before confirming any transaction, users can review all details, reducing the risk of scams or errors. This transparency ensures you maintain full control over your digital assets.</p>
+</li>
+<li>
+<p><strong>Seamless dApp Connectivity</strong><br />Rabby Wallet is built with Web3 integration at its core. You can connect to popular decentralized exchanges, DeFi protocols, and NFT platforms with just a few clicks. Its smart dApp routing ensures smooth and reliable interactions.</p>
+</li>
+<li>
+<p><strong>User-Friendly Interface</strong><br />Navigating Rabby Wallet is straightforward, thanks to its clean and intuitive interface. From setting up the wallet to executing transactions, every step is designed for simplicity and ease of use.</p>
+</li>
+<li>
+<p><strong>Enhanced Privacy and Security</strong><br />Your private keys are securely stored on your device, giving you complete control over your funds. Rabby Wallet also supports hardware wallet integration for an additional layer of security.</p>
+</li>
+</ol>
+<h2><strong>Why Choose Rabby Wallet?</strong></h2>
+<p>Rabby Wallet combines advanced functionality with ease of use, making it an ideal choice for managing digital assets and exploring the decentralized world. Its focus on security, multi-chain support, and user experience sets it apart from other wallets.</p>
+<h2><strong>Get Started with Rabby Wallet</strong></h2>
+<p>Ready to explore Web3 with confidence? Download Rabby Wallet today and take the first step into the decentralized future. Visit <a href="https://rabby.io" target="_new" rel="noopener">Rabby Wallet&rsquo;s official website</a> to learn more and start your journey.</p>
+        </div>
+    </div>
+</body>
+</html>
+<footer>
+        <p>Join the discussion on <a href="#">Discord</a> | <a href="#">Contact Us</a> | <a href="#">Support</a></p>
+        <p>&copy; 2025 Rabby Wallet. All Rights Reserved.</p>
+    </footer>
+</body>
